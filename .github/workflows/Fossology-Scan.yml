@@ -24,4 +24,4 @@ jobs:
       with:
         scan_mode: 'repo'
         scanners: 'nomos ojo copyright'
-        report_format: ''
+        report_format: 'TEXT'
