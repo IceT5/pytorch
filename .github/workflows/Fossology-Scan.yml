@@ -23,5 +23,5 @@ jobs:
       uses: fossology/fossology-action@v1
       with:
         scan_mode: 'repo'
-        scanners: 'nomos ojo copyright'
-        report_format: 'TEXT'
+        scanners: 'copyright'
+        report_format: 'SPDX_YAML'
