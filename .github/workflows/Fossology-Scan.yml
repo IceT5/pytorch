@@ -25,7 +25,7 @@ jobs:
       with:
         scan_mode: 'repo'
         scanners: 'copyright'
-        report_format: 'TEXT'
+        report_format: 'SPDX_JSON'
 
     - name: Upload Scan Results Artifact
       uses: actions/upload-artifact@v4
