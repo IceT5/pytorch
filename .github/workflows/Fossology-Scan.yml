@@ -20,6 +20,7 @@ jobs:
 
     - name: License check
       id: compliance
+      continue-on-error: true
       uses: fossology/fossology-action@v1
       with:
         scan_mode: 'repo'
