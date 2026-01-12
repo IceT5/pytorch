@@ -26,7 +26,6 @@ jobs:
         scan_mode: 'repo'
         scanners: 'copyright'
         report_format: 'TEXT'
-        ignore_failure: true
 
     - name: Upload Scan Results Artifact
       uses: actions/upload-artifact@v4
