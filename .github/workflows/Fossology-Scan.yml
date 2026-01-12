@@ -24,4 +24,10 @@ jobs:
       with:
         scan_mode: 'repo'
         scanners: 'copyright'
-        report_format: 'SPDX_YAML'
+        report_format: 'TEXT SPDX_YAML'
+
+    - name: Upload Scan Results Artifact
+      uses: actions/upload-artifact@v4
+      with:
+          name: Fossology scan results
+          path: results/
